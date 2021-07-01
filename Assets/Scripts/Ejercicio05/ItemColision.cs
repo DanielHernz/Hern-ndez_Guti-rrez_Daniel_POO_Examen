@@ -8,19 +8,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Score : MonoBehaviour
+public class ItemColision : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    protected void OnTriggerEnter(Collider other) 
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.tag == "Player")
+        {
+            Items.ITEM_destroy++;
+            Destroy(gameObject);
+        }
     }
 }
