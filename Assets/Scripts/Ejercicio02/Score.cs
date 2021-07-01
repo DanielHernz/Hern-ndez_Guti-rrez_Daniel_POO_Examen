@@ -1,6 +1,6 @@
 //Hernández Gutiérrez Daniel
 //Programación Orientada a Objetos
-//PlayerControls - Ejercicio 2
+//Score - Ejercicio 2
 /*
 
 */

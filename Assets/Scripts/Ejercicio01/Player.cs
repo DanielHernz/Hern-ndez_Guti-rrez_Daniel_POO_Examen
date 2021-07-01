@@ -1,6 +1,6 @@
 //Hernández Gutiérrez Daniel
 //Programación Orientada a Objetos
-//PlayerControls - Ejercicio 1
+//Player - Ejercicio 1
 /*
 Este script solo llamará a los eventos que requiera del script de quien está siendo heredado.
 */

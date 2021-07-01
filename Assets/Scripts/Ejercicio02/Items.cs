@@ -1,8 +1,9 @@
 //Hernández Gutiérrez Daniel
 //Programación Orientada a Objetos
-//PlayerControls - Ejercicio 2
+//Items - Ejercicio 2
 /*
-
+Después de numerosas pruebas fallidas, este script fue destinado a mantaner el numero total de Items con los que le pLayer tuvo contacto.
+Habiendo heredado el script Vidas para hacer una multi herencia en el scrict UIManager.
 */
 using System;
 using System.Collections;
@@ -12,22 +13,6 @@ using UnityEngine.UI;
 
 public class Items : Vidas
 {
-    public static int ITEM_destroy;
-    public Text ITEMS_num;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static int ITEM_destroy; //Mantenemos el conteo en esta variable.
 
-    // Update is called once per frame
-    void Update()
-    {
-        //print(ITEM_destroy);
-    }
-    protected void ConteoITEM()
-    {
-
-    }
 }
