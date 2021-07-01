@@ -1,6 +1,6 @@
 //Hernández Gutiérrez Daniel
 //Programación Orientada a Objetos
-//EnemyColision - Ejercicio 
+//EnemyColision - Ejercicio 4
 /*
 En este script se registrará la colisión entre el player y el enemigo, sumando posteriormente a la
 variable score y restando a la variable vidas. Para finalmente destruir al gameObject.

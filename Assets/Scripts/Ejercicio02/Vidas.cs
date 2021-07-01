@@ -1,6 +1,6 @@
 //Hernández Gutiérrez Daniel
 //Programación Orientada a Objetos
-//Vidas - Ejercicio 2
+//Vidas - Ejercicio 2 / Ejercicio 4
 /*
 En este script se mantendrá el contador de vidas para que sea heradado y manipulado por la clase principal;
 UIManager.
