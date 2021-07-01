@@ -16,7 +16,7 @@ public class EnemyColision : MonoBehaviour
     {
         if (other.tag == "Player") //Presentamos la condicionante de colisionar con el gameObject con el tag "Player"
         {
-            Score.Puntuacion=+10; //Sumamos 10 a la variable
+            Score.Puntuacion+=10; //Sumamos 10 a la variable
             Vidas.Total_Vidas--; //Restamos 1 a la variable
             Destroy(gameObject); //Destruimos el gameObject portador
         }
