@@ -3,7 +3,7 @@
 //PlayerControls - Ejercicio 1
 /*
 Este script ejecuta las mecánicas de movimiento del player y reproduce sus animaciones 
-pertinentes. Solo requiere de la autorización de otro script complementario.
+pertinentes. Para que el script del player no cargue con todos estas ejecuciones, habrá otro script que heredará estos procesos.
 */
 using System;
 using System.Collections;
