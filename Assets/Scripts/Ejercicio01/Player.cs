@@ -1,3 +1,9 @@
+//Hernández Gutiérrez Daniel
+//Programación Orientada a Objetos
+//PlayerControls - Ejercicio 1
+/*
+Este script solo llamará a los eventos que requiera del script de quien está siendo heredado.
+*/
 using System;
 using System.Collections;
 using System.Collections.Generic;
