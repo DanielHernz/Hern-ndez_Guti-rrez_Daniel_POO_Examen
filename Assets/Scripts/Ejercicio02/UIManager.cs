@@ -25,5 +25,7 @@ public class UIManager : Items //Este script y las 3 clases complementarias; cad
     void Update()
     {
         ItemText.text = ITEM_destroy.ToString(); //Convertimos el valor numerico en texto string y lo asignamos a un texto UI
+        VidaText.text = Total_Vidas.ToString(); 
+        ScoreText.text = Puntuacion.ToString(); 
     }
 }
